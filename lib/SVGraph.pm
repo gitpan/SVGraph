@@ -9,7 +9,7 @@ SVGraph - Library that generates cool SVG graphs
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use SVGraph::Core;
 

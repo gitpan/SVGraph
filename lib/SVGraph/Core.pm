@@ -1,4 +1,7 @@
-#!/bin/perl
+package SVGraph::Core;
+
+1;
+
 package SVGraph;
 use open ':utf8', ':std';
 use encoding 'utf8';
@@ -7,7 +10,7 @@ use strict;
 
 =head1 NAME
 
-SVGraph
+SVGraph::Core
 
 =head1 DESCRIPTION
 
@@ -29,9 +32,9 @@ BEGIN
 
 libraries:
 
- SVG
- SVGraph::columns
- SVGraph::colors
+	SVG
+	SVGraph::columns
+	SVGraph::colors
 
 =cut
 
@@ -39,14 +42,6 @@ use SVGraph::columns;
 use SVGraph::colors;
 use SVG;
 
-
-=head1 FUNCTIONS
-
-=head2 GetAVG()
-
-
-
-=cut
 
 sub GetAVG
 {
@@ -395,7 +390,7 @@ sub prepare_legend
 	my $count;
 	foreach (keys %{$self->{columns}}){$count++};
  
-=head1
+=cut
  my $block=$self->{SVG}->polyline(
 	points	=>	
 		($self->{ENV}{x}).",".$self->{block_up}." ".

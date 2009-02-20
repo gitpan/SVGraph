@@ -11,8 +11,8 @@ doc/src/images/stacked.jpeg
 doc/src/images/valuemark.jpeg
 doc/src/images/valuemarkarea.jpeg
 doc/src/SVGraph.docbook
-doc/SVGraph-r3.html
-doc/SVGraph-r3.pdf
+doc/SVGraph-r4.html
+doc/SVGraph-r4.pdf
 examples/svgraph-2d-columns.pl
 examples/svgraph-2d-lines.pl
 lib/SVGraph.pm
@@ -29,3 +29,6 @@ Makefile.PL
 MANIFEST
 META.yml
 README
+t/00-compile.t
+t/pod-spell.t
+t/pod.t

@@ -30,8 +30,8 @@ SYNOPSIS
 
         $graph->addValueMark(20,front => 1, color => 'blue', right => 1, 
                              show_label_text => 'something', show_label => 1);
-    
-        # data for graph
+        
+    # data for graph
         $columns{first}->addData('1',30);
         $columns{first}->addData('2',60);
         $columns{first}->addData('3',50);
@@ -59,16 +59,20 @@ SUPPORT
 
     You can also look for information at:
 
-    * RT: CPAN's request tracker
+    *   RT: CPAN's request tracker
+
         <http://rt.cpan.org/NoAuth/Bugs.html?Dist=SVGraph>
 
-    * AnnoCPAN: Annotated CPAN documentation
+    *   AnnoCPAN: Annotated CPAN documentation
+
         <http://annocpan.org/dist/SVGraph>
 
-    * CPAN Ratings
+    *   CPAN Ratings
+
         <http://cpanratings.perl.org/d/SVGraph>
 
-    * Search CPAN
+    *   Search CPAN
+
         <http://search.cpan.org/dist/SVGraph>
 
 ACKNOWLEDGEMENTS

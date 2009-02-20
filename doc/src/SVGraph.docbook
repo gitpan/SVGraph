@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
 "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
 <article lang="sk">
-  <title>Project - TOM3-App - Statistic subsystem</title>
+  <title>SVGraph</title>
 
   <articleinfo>
     <pubdate>YYYY-MM-DD</pubdate>
@@ -56,6 +56,22 @@
           <para>Added new information.</para>
         </revdescription>
       </revision>
+
+      <revision>
+        <revnumber>4</revnumber>
+
+        <date>2008-02-20</date>
+
+        <author>
+          <firstname>Roman</firstname>
+
+          <surname>Fordinal</surname>
+        </author>
+
+        <revdescription>
+          <para>Legal notice update.</para>
+        </revdescription>
+      </revision>
     </revhistory>
 
     <authorgroup>
@@ -87,9 +103,9 @@
     </authorgroup>
 
     <legalnotice>
-      <para>This document is owned by WebCom s.r.o. and it contains
-      information, which are deemed as secret. Sharing this information out of
-      the WebCom company is taken as a breach of the deal of secrecy.</para>
+        <para>This program is free software; you can redistribute it and/or modify it
+        under LGPLv2.
+        </para>
     </legalnotice>
 
     <abstract>
